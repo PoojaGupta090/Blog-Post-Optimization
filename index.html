@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Optimization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Blog Post Optimization</h1>
+
+    <label>Blog Title</label>
+    <input type="text" id="title" placeholder="Enter blog title">
+
+    <label>Blog Content</label>
+    <textarea id="content" rows="10" placeholder="Write your blog here..."></textarea>
+
+    <button onclick="analyzeBlog()">Analyze Blog</button>
+
+    <div class="result">
+
+        <h2>Results</h2>
+
+        <p><strong>Word Count:</strong> <span id="wordCount">0</span></p>
+
+        <p><strong>Reading Time:</strong> <span id="readingTime">0</span> min</p>
+
+        <p><strong>SEO Score:</strong> <span id="seoScore">0</span>/100</p>
+
+        <p><strong>Suggestions:</strong></p>
+
+        <ul id="tips"></ul>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
